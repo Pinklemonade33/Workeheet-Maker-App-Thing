@@ -21,7 +21,31 @@ The work order data could be downloaded as an Excel file from our WMS, this appl
 categorize items in whatever category the user sets. It can then take those specific items and write them on an
 Excel file in a much more readable format than what our WMS would give us.
 
+## How to demo this project
 
+1. Clone this repo.
+2. Run main_gui.py.
+3. Click Material Finder.
+4. Click Import (located in top left of GUI).
+5. In the file browser select the demo_data.xlsx file which is located inside this projects directory.
+6. Click Select Category button select a category(located in next the import button).
+- The panel on the left has a tree view containing Job# and Site ID columns.
+- When a row is selected from the left side tree view, the right side tree view will display the Materials and their
+quantities for that site.
+7. Click on a row from the left side tree view.
+8. On the right side tree view, double click on a row and then select Add to Category
+- Now all sites and rows containing the material that was added to the current category will be highlighted..
+- To only the sites and rows that contain the material selected for your category, click on the switch that says Show Only Selected.
+9. Click on the Review and print button.
+- This page shows the available options for how the data will be layed out on the excel sheet.
+- The drop down box on the top gives two options: By Material and By Site.
+    - By Material will group all the same material together and display the site info to each row on the left columns.
+    - By Site will group material with site it goes to.
+10. Select By Material from the drop down box (located at the top of the window).
+11. Select the Automatic radio button.
+12. Click the load button (located on the bottom right).
+- An excel sheet should be created and pop up on your screen.
+- That covers typical use of this app. Thanks for checking this out!
 
 
 
